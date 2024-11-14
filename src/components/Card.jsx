@@ -28,10 +28,10 @@ const Card = () => {
         <a href="https://www.linkedin.com/in/rumeysanurkilic/" target="_blank">
           <button>LinkedIn</button>
         </a>
-        <a href="" target="_blank">
+        <a href="">
           <button>Twitter</button>
         </a>
-        <a href="" target="_blank">
+        <a href="">
           <button>Instagram</button>
         </a>
       </div>
