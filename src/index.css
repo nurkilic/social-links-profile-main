@@ -17,6 +17,7 @@
 --Mobile: 375px;
 --Desktop: 1440px;
 
+
 }
 
 button{
@@ -28,6 +29,10 @@ button{
   display: block;
   width: 100%;
   font-weight: 600;
+}
+
+.card{
+  scale: 1.2;
 }
 
 button:hover{

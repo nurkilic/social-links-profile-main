@@ -2,7 +2,7 @@ import avatar from "../assets/images/muslim-girl-social-media-avatar-260nw-23324
 
 const Card = () => {
   return (
-    <div className=" flex flex-col justify-center items-center bg-[var(--Grey800)] max-w-[300px] w-full text-[var(--White)] rounded-[10px] p-8 min-w-[220px]  ">
+    <div className="card flex flex-col justify-center items-center bg-[var(--Grey800)] max-w-[380px] w-full text-[var(--White)] rounded-[10px] p-8 min-w-[220px] ">
       <img
         className="w-16 h-16 rounded-full object-cover mb-4"
         src={avatar}
