@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --Green: hsl(75, 94%, 57%);
+  --White: hsl(0, 0%, 100%);
+  --Grey700: hsl(0, 0%, 20%);
+  --Grey800: hsl(0, 0%, 12%);
+  --Grey900: hsl(0, 0%, 8%);
+  --Fontsize-paragraph: 14px;
+  --Weights400: 400;
+  --Weights400: 600;
+  --Weights400: 700;
+  
+--Mobile: 375px;
+--Desktop: 1440px;
+
+}
+
+button{
+
+  background-color: var(--Grey700);
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  font-weight: 600;
+}
+
+body {
+  margin: 0;
+
+}
