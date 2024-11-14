@@ -30,6 +30,11 @@ button{
   font-weight: 600;
 }
 
+button:hover{
+  background-color: var(--Green);
+  color:black;
+}
+
 body {
   margin: 0;
 

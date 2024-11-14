@@ -16,11 +16,24 @@ const Card = () => {
         &quot;Front-end developer and avid reader.&quot;
       </h4>
       <div className="flex flex-col gap-y-3 mt-2 text-[11px] w-full">
-        <a href="https://github.com/nurkilic"><button>GitHub</button></a>
-        <button>Frontend Mentor</button>
-        <button>LinkedIn</button>
-        <button>Twitter</button>
-        <button>Instagram</button>
+        <a href="https://github.com/nurkilic" target="_blank">
+          <button>GitHub</button>
+        </a>
+        <a
+          href="https://www.frontendmentor.io/profile/nurkilic"
+          target="_blank"
+        >
+          <button>Frontend Mentor</button>
+        </a>
+        <a href="https://www.linkedin.com/in/rumeysanurkilic/" target="_blank">
+          <button>LinkedIn</button>
+        </a>
+        <a href="" target="_blank">
+          <button>Twitter</button>
+        </a>
+        <a href="" target="_blank">
+          <button>Instagram</button>
+        </a>
       </div>
     </div>
   );
