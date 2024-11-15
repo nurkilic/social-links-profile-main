@@ -13,34 +13,32 @@
   --Weights400: 400;
   --Weights400: 600;
   --Weights400: 700;
-  
---Mobile: 375px;
---Desktop: 1440px;
 
-
+  --Mobile: 375px;
+  --Desktop: 1440px;
 }
 
-button{
-
+button {
   background-color: var(--Grey700);
-  padding: 10px;
+  padding: 0.75rem;
   width: 100%;
-  border-radius: 5px;
+  border-radius: 10px;
   display: block;
   width: 100%;
   font-weight: 600;
 }
 
-.card{
-  scale: 1.2;
-}
-
-button:hover{
+button:hover {
   background-color: var(--Green);
-  color:black;
+  color: black;
 }
 
-body {
-  margin: 0;
+html {
+  font-size: 20px;
+}
 
+@media only screen and (max-width: 640px) {
+  html {
+    font-size: 16px;
+  }
 }
